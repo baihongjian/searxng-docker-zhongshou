@@ -5,3 +5,7 @@ services:
     plan: free
     autoDeploy: true
     healthCheckPath: /
+
+    envVars:
+      - key: PORT
+        value: 8080
